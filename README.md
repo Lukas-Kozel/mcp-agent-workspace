@@ -18,7 +18,7 @@ Moving beyond simple tool execution, this architecture acts as a powerful develo
 ├── math_server.py           # FastMCP server: Provides exact math operations
 ├── hello_world_server.py    # FastMCP server: Handles localized user greetings
 ├── local_storage_server.py  # FastMCP server: Directory search and safe file reading
-├── kalkulacka_app/          # ADK Web Server application directory
+├── App/          # ADK Web Server application directory
 │   └── agent.py             # The core Agent definition, instructions, and tool routing
 ├── agent_app.py             # (Legacy) CLI version of the agent with an explicit Runner
 ├── .env                     # Environment variables (NOT tracked in Git)
